@@ -138,6 +138,7 @@ header p {
   main {
     padding: 80px 0 78px 0;
     gap: 64px;
+
   }
   header {
     display: flex;
@@ -146,6 +147,7 @@ header p {
     justify-content: center;
     align-items: center;
     gap: 13px;
+    
   }
   h1 {
     color: #4d4f62;
@@ -167,10 +169,12 @@ header p {
     letter-spacing: 0.25px;
   }
   .grid-container {
+    background-color: red;
     width: 1110px;
     grid-template-columns: 1fr 1fr 1fr; /* Three columns */
     grid-template-rows: 1fr 1fr; /* Two rows */
     gap: 30px;
+    padding: 0px;
     align-items: center; /* Align items vertically */
   }
   .card-image {
